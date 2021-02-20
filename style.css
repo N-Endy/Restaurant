@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #0f0f0ff5;
+    --white-color: #fff;
+}
+
+/* Utility Class */
+/* Flexbox */
+.f {display: flex;}
+.r {flex-direction: row;}
+.c {flex-direction: column;}
+
+.v {align-items: center;}
+.vs {align-items: flex-start;}
+.ve {align-items: flex-end;}
+
+.h {justify-content: center;}
+.hs {justify-content: flex-start;}
+.he {justify-content: flex-end;}
+
+.s {justify-content: space-between;}
+
+/* Body */
+#container {
+    margin: 1rem;
+}
+
+/* Nav Bar */
+.nav-bar {
+    padding: 1rem;
+}
+
+.nav-bar .logo .icon-circle {
+    width: 2rem;
+    height: 2rem;
+    background: var(--primary-color);
+    border-radius: 50%;
+}
+
+.nav-bar .logo .logo-name {
+    margin: -11px;
+}
+
+.nav-bar ul li a {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.nav-bar ul li a:hover {
+    background: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 0.25rem;
+}
