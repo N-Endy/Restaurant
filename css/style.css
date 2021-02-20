@@ -2,6 +2,8 @@
     --primary-color: #0f0f0ff5;
     --white-color: #fff;
     --margin-bottom: 2rem;
+    --small-margin: 1rem;
+    --big-margin: 4rem;
 }
 
 /* Utility Class */
@@ -19,16 +21,44 @@
 .he {justify-content: flex-end;}
 
 .s {justify-content: space-between;}
+.sa {justify-content: space-around;}
 
-.btn a {
+.btn {
     text-decoration: none;
+    border: 1px solid var(--primary-color);
 }
+
+.btn-small {
+    padding: 0.5rem 1rem;
+}
+
+.bg-black {
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+
+.bg-black:hover {
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+.bg-white {
+    color: var(--primary-color);
+    background: var(--white-color);
+}
+
+.bg-white:hover {
+    color: var(--white-color);
+    background: var(--primary-color);
+}
+
+.text-align {text-align: center;}
 
 /* Body */
 #container {
     background: var(--white-color);
     padding: 2rem 4rem;
-
+    line-height: 1.7;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -60,13 +90,29 @@
 }
 
 /* Sections */
+/* Reservations */
+#reservation {
+    margin-bottom: var(--margin-bottom);
+}
+
 #reservation .reservation-text {
-    width: 60%;
-    padding: 4rem 0;
+    width: 50%;
+    padding: 4rem 2rem;
 }
 
 #reservation .reservation-text h2 {
+    margin-bottom: var(--margin-bottom);
     font-size: 30px;
+    font-weight: bold;
+}
+
+#reservation .reservation-text p {
+    margin-bottom: var(--margin-bottom);
+}
+
+#reservation .reservation-text .reservation-btn a {
+    margin-right: var(--margin-bottom);
+    padding: 0.5rem 1.2rem;
 }
 
 #reservation .reservation-img {
@@ -88,5 +134,34 @@
     background: url("/css/img/food1.jpg") no-repeat center center/cover;
     position: absolute;
     right: 20;
-    top: 50%;
+    top: 30%;
 }
+/* About */
+#about {
+    margin-bottom: var(--margin-bottom);
+}
+
+#about h4 {
+    margin-bottom: var(--margin-bottom);
+    font-weight: 10;
+}
+
+#about .about-btn {margin-bottom: var(--big-margin);}
+
+#about .our-story .our-story-text {
+    width: 30%;
+}
+
+#about .our-story .our-story-text h3 {
+    font-size: 20px;
+    font-weight: 10;
+    margin-bottom: var(--margin-bottom);
+}
+
+#about .our-story .our-story-img{
+    position: relative;
+    width: 40%;
+    height: 350px;
+    background: url("/css/img/setting2.jpg") no-repeat center center/cover;
+}
+
