@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #0f0f0ff5;
+    --white-color: #fff;
+    --margin-bottom: 2rem;
+}
+
+/* Utility Class */
+/* Flexbox */
+.f {display: flex;}
+.r {flex-direction: row;}
+.c {flex-direction: column;}
+
+.v {align-items: center;}
+.vs {align-items: flex-start;}
+.ve {align-items: flex-end;}
+
+.h {justify-content: center;}
+.hs {justify-content: flex-start;}
+.he {justify-content: flex-end;}
+
+.s {justify-content: space-between;}
+
+.btn a {
+    text-decoration: none;
+}
+
+/* Body */
+#container {
+    background: var(--white-color);
+    padding: 2rem 4rem;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Nav Bar */
+.nav-bar {
+    margin-bottom: var(--margin-bottom);
+}
+.nav-bar .logo .icon-circle {
+    width: 2rem;
+    height: 2rem;
+    background: var(--primary-color);
+    border-radius: 50%;
+}
+
+.nav-bar .logo .logo-name {
+    margin: -11px;
+}
+
+.nav-bar ul li a {
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.nav-bar ul li a:hover {
+    background: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 0.25rem;
+}
+
+/* Sections */
+#reservation .reservation-text {
+    width: 60%;
+    padding: 4rem 0;
+}
+
+#reservation .reservation-text h2 {
+    font-size: 30px;
+}
+
+#reservation .reservation-img {
+    width: 40%;
+    position: relative;
+}
+
+#reservation .reservation-img .img1 {
+    position: relative;
+    height: 250px;
+    width: 60%;
+    background: url("/css/img/setting2.jpg") no-repeat center center/cover;
+    z-index: 1;
+}
+
+#reservation .reservation-img .img2 {
+    height: 250px;
+    width: 60%;
+    background: url("/css/img/food1.jpg") no-repeat center center/cover;
+    position: absolute;
+    right: 20;
+    top: 50%;
+}
