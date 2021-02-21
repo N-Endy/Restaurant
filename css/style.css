@@ -4,6 +4,11 @@
     --margin-bottom: 2rem;
     --small-margin: 1rem;
     --big-margin: 4rem;
+    --large-margin: 6rem;
+}
+
+* {
+    scroll-behavior: smooth;
 }
 
 /* Utility Class */
@@ -56,6 +61,7 @@
 
 /* Body */
 #container {
+    scroll-behavior: smooth;
     background: var(--white-color);
     padding: 2rem 4rem;
     line-height: 1.7;
@@ -131,14 +137,14 @@
 #reservation .reservation-img .img2 {
     height: 250px;
     width: 60%;
-    background: url("/css/img/food1.jpg") no-repeat center center/cover;
+    background: url("/css/img/setting1.jpg") no-repeat center center/cover;
     position: absolute;
     right: 20;
     top: 30%;
 }
 /* About */
 #about {
-    margin-bottom: var(--margin-bottom);
+    margin-bottom: var(--large-margin);
 }
 
 #about h4 {
@@ -165,3 +171,73 @@
     background: url("/css/img/setting2.jpg") no-repeat center center/cover;
 }
 
+/* Menu */
+#menu {
+    margin-bottom: var(--big-margin);
+}
+
+#menu > h3 {
+    font-size: 30px;
+    margin-bottom: var(--margin-bottom);
+}
+
+#menu .our-menu {margin-bottom: var(--large-margin);}
+
+#menu .our-menu .our-menu-text {
+    width: 30%;
+}
+
+#menu .our-menu .our-menu-text h3 {
+    font-size: 20px;
+    font-weight: 10;
+    margin-bottom: var(--margin-bottom);
+}
+
+#menu .our-menu .our-menu-img{
+    position: relative;
+    width: 35%;
+    height: 300px;
+    background: url("/css/img/food1.jpg") no-repeat center center/cover;
+}
+
+#menu .our-chef {
+    margin-bottom: var(--large-margin);
+}
+
+#menu .our-chef .our-chef-text {
+    width: 30%;
+}
+
+#menu .our-chef .our-chef-text h3 {
+    font-size: 20px;
+    font-weight: 10;
+    margin-bottom: var(--margin-bottom);
+}
+
+#menu .our-chef .our-chef-img{
+    position: relative;
+    width: 35%;
+    height: 300px;
+    background: url("/css/img/chef.jpg") no-repeat center center/cover;
+}
+
+#menu .our-dish {
+    margin-bottom: var(--large-margin);
+}
+
+#menu .our-dish .our-dish-text {
+    width: 30%;
+}
+
+#menu .our-dish .our-dish-text h3 {
+    font-size: 20px;
+    font-weight: 10;
+    margin-bottom: var(--margin-bottom);
+}
+
+#menu .our-dish .our-dish-img{
+    position: relative;
+    width: 35%;
+    height: 300px;
+    background: url("/css/img/food1.jpg") no-repeat center center/cover;
+}
