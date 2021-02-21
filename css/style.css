@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root {
     --primary-color: #0f0f0ff5;
     --white-color: #fff;
@@ -20,10 +22,12 @@
 .v {align-items: center;}
 .vs {align-items: flex-start;}
 .ve {align-items: flex-end;}
+.vas {align-self: flex-end;}
 
 .h {justify-content: center;}
 .hs {justify-content: flex-start;}
 .he {justify-content: flex-end;}
+.hjs {justify-self: flex-end;}
 
 .s {justify-content: space-between;}
 .sa {justify-content: space-around;}
@@ -61,11 +65,10 @@
 
 /* Body */
 #container {
-    scroll-behavior: smooth;
     background: var(--white-color);
     padding: 2rem 4rem;
     line-height: 1.7;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Nav Bar */
@@ -130,14 +133,14 @@
     position: relative;
     height: 250px;
     width: 60%;
-    background: url("/css/img/setting2.jpg") no-repeat center center/cover;
+    background: url("/css/img/setting1.jpg") no-repeat center center/cover;
     z-index: 1;
 }
 
 #reservation .reservation-img .img2 {
     height: 250px;
     width: 60%;
-    background: url("/css/img/setting1.jpg") no-repeat center center/cover;
+    background: url("/css/img/setting2.jpg") no-repeat center center/cover;
     position: absolute;
     right: 20;
     top: 30%;
@@ -240,4 +243,60 @@
     width: 35%;
     height: 300px;
     background: url("/css/img/food1.jpg") no-repeat center center/cover;
+}
+
+/* Section: About Us */
+.about-us {
+    margin-bottom: var(--large-margin);
+}
+
+.about-us > h3 {
+    font-size: 30px;
+    margin-bottom: var(--margin-bottom);
+}
+
+.about-us .about-us-flex {
+    padding: 1rem;
+}
+
+.about-us .about-us-flex .about-us-content {
+    width: 25%;
+    height: 12rem;
+    margin: 0 2rem;
+    padding: 1rem;
+    border: 1px solid rgb(241, 237, 237);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+.about-us .about-us-flex .about-us-content .date {
+    margin-top: auto;
+}
+
+.about-us .about-us-flex .about-us-content p {
+    color: grey;
+}
+
+.about-us .about-us-flex .about-us-content .content-img {
+    margin-bottom: var(--small-margin);
+}
+
+.about-us .about-us-flex .about-us-content .content-img img {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1.5rem;
+    border-radius: 50%;
+}
+
+.about-us .about-us-flex .about-us-content .content-img h3 {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* Section: Contact Us */
+#contact {
+    margin-bottom: var(--margin-bottom);
+}
+
+#contact .contact-content #map {
+    height: 30px;
 }
