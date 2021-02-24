@@ -32,9 +32,14 @@
 .s {justify-content: space-between;}
 .sa {justify-content: space-around;}
 
+.first-letter {
+    color: white;
+}
+
 .btn {
     text-decoration: none;
     border: 1px solid var(--primary-color);
+    border-radius: 0.25rem;
 }
 
 .btn-small {
@@ -64,6 +69,10 @@
 .text-align {text-align: center;}
 
 /* Body */
+body {
+    scroll-behavior: smooth;
+}
+
 #container {
     background: var(--white-color);
     padding: 2rem 4rem;
@@ -298,5 +307,8 @@
 }
 
 #contact .contact-content #map {
-    height: 30px;
-}
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 70%;
+    /* The width is the width of the web page */
+  }
