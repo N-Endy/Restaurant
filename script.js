@@ -9,41 +9,25 @@ function initMap() {
     });
     // The marker, positioned at Uluru
     const marker = new google.maps.Marker({
-      position: uluru,
+      position: lagos,
       map: map,
     });
   }
 
 
 
-// Smooth Scrolling
-// $('.navbar a').on('click', function(event) {
-//     if (this.hash !== '') {
-//         event.preventDefault();
+//  Smooth Scrolling
+$('.navbar a').on('click', function(event) {
+    if (this.hash !== '') {
+        event.preventDefault();
 
-//         const hash = this.hash;
+        const hash = this.hash;
 
-//         $('html, body').animate(
-//             {
-//                 scrollTop: $(hash).offset().top -100
-//             },
-//             800
-//         );
-//     }
-// });
-
-// Logo
-// let logo = document.querySelector('.logo-name');
-// let blackbuffet = logo.textContent;
-// console.log(blackbuffet);
-// let firstLetter = blackbuffet.split('');
-// firstLetter[0].style.color = 'white';
-
-// var changeColor = function (className, color) {
-//     var elems = document.getElementsByClassName (className);
-//     console.log(elems[0].textContent.split('')[0])
-
-//     // Change the text color
-//     elems[0].textContent.split('')[0].st = color;
-// }
-// changeColor ("logo-name", "red");
+        $('html, body').animate(
+            {
+                scrollTop: $(hash).offset().top -100
+            },
+            800
+        );
+    }
+});

@@ -68,6 +68,10 @@
 
 .text-align {text-align: center;}
 
+div i {
+    margin-right: var(--small-margin);
+}
+
 /* Body */
 body {
     scroll-behavior: smooth;
@@ -161,7 +165,7 @@ body {
 
 #about h4 {
     margin-bottom: var(--margin-bottom);
-    font-weight: 10;
+    font-weight: bold;
 }
 
 #about .about-btn {margin-bottom: var(--big-margin);}
@@ -172,7 +176,7 @@ body {
 
 #about .our-story .our-story-text h3 {
     font-size: 20px;
-    font-weight: 10;
+    font-weight: bold;
     margin-bottom: var(--margin-bottom);
 }
 
@@ -201,7 +205,7 @@ body {
 
 #menu .our-menu .our-menu-text h3 {
     font-size: 20px;
-    font-weight: 10;
+    font-weight: bold;
     margin-bottom: var(--margin-bottom);
 }
 
@@ -222,7 +226,7 @@ body {
 
 #menu .our-chef .our-chef-text h3 {
     font-size: 20px;
-    font-weight: 10;
+    font-weight: bold;
     margin-bottom: var(--margin-bottom);
 }
 
@@ -243,7 +247,7 @@ body {
 
 #menu .our-dish .our-dish-text h3 {
     font-size: 20px;
-    font-weight: 10;
+    font-weight: bold;
     margin-bottom: var(--margin-bottom);
 }
 
@@ -307,8 +311,16 @@ body {
 }
 
 #contact .contact-content #map {
-    height: 400px;
+    height: 350px;
     /* The height is 400 pixels */
-    width: 70%;
+    width: 65%;
     /* The width is the width of the web page */
+  }
+
+  #contact .contact-content .contact-details {
+      line-height: 2.7;
+  }
+
+  #contact .contact-content .contact-details h3 {
+      font-weight: bold;
   }
