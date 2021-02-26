@@ -324,3 +324,42 @@ body {
   #contact .contact-content .contact-details h3 {
       font-weight: bold;
   }
+
+  /* Footer */
+  .footer {
+      border-top: 2px solid var(--primary-color);
+      padding: 1rem;
+  }
+
+  .footer .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+  }
+
+  .footer .footer-grid #grid-container1 .icon-circle {
+    width: 2rem;
+    height: 2rem;
+    background: var(--primary-color);
+    border-radius: 50%;
+}
+
+.footer .footer-grid #grid-container1 .logo-name {
+    margin: -11px;
+}
+
+.footer .footer-grid .grid-container h3 {
+    font-weight: bold;
+}
+
+.footer .footer-grid .grid-container {
+    line-height: 3;
+}
+
+.footer .footer-grid .grid-container ul li a {
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+}
+
+.footer .footer-grid .grid-container ul li a:hover {
+    color: #000;
+}
