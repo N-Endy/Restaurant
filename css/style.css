@@ -356,6 +356,7 @@ body {
 }
 
 .footer .footer-grid .grid-container ul li a {
+    font-size: 14px;
     text-decoration: none;
     color: rgb(68, 67, 67);
 }
