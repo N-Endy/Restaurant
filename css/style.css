@@ -307,7 +307,7 @@ body {
 
 /* Section: Contact Us */
 #contact {
-    margin-bottom: var(--margin-bottom);
+    margin-bottom: var(--large-margin);
 }
 
 #contact .contact-content #map {
@@ -363,4 +363,5 @@ body {
 
 .footer .footer-grid .grid-container ul li a:hover {
     color: #000;
+    text-decoration: underline;
 }
