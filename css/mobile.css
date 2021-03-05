@@ -99,3 +99,13 @@
     width: 100%;
     text-align: justify;
 }
+
+/* Section: About Us */
+.about-us .about-us-flex {
+    flex-direction: column;
+}
+
+.about-us .about-us-flex .about-us-content {
+    width: 100%;
+    margin-bottom: 1rem;
+}
