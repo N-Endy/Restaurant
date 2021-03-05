@@ -77,3 +77,25 @@
     width: 100%;
     margin-bottom: -1.5rem;
 }
+
+/* Section: Menu */
+#menu .our-menu,
+#menu .our-chef,
+#menu .our-dish {
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+#menu .our-chef .our-chef-img {
+    order: 1;
+}
+
+#menu .our-menu .our-menu-text,
+#menu .our-menu .our-menu-img,
+#menu .our-chef .our-chef-text,
+#menu .our-chef .our-chef-img,
+#menu .our-dish .our-dish-text,
+#menu .our-dish .our-dish-img {
+    width: 100%;
+    text-align: justify;
+}
