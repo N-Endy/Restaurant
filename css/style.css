@@ -88,6 +88,11 @@ body {
 .nav-bar {
     margin-bottom: var(--margin-bottom);
 }
+
+.nav-bar .hamburger {
+    display: none;
+}
+
 .nav-bar .logo .icon-circle {
     width: 2rem;
     height: 2rem;
