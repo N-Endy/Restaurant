@@ -101,6 +101,9 @@
 }
 
 /* Section: About Us */
+.about-us {
+    margin-bottom: 1rem;
+}
 .about-us .about-us-flex {
     flex-direction: column;
 }
@@ -108,4 +111,28 @@
 .about-us .about-us-flex .about-us-content {
     width: 100%;
     margin-bottom: 1rem;
+}
+
+/* Section: Contact Us */
+#map {
+    display: none;
+}
+
+#contact .contact-content .contact-details {
+    justify-content: start;
+    align-items: start;
+}
+
+/* Footer */
+.footer .footer-grid .logo {
+    display: none;
+}
+
+.footer .footer-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer-grid .grid-container {
+    border-bottom: 1px dotted black;
 }
