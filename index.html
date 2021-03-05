@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
     <title>Restaurant</title>
 </head>
 <body>
@@ -12,15 +13,19 @@
         <!-- Nav Bar -->
         <header>
             <nav class="nav-bar f s h v">
-                <div class="logo f v "><span class="icon-circle"></span>
+                <div class="logo f v " id="logo"><span class="icon-circle"></span>
                     <h1 class="logo-name"><span class="first-letter">B</span>LACKBUFFET</h1>
                 </div>
-                <ul class="f v h he">
+                <ul class="f v h he" id="ul">
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="#menu">Menu</a></li>
                     <li><a href="#reservation">Reservations</a></li>
                 </ul>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="hamburger" onclick="hamburger()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </nav>
         </header>
         
@@ -31,15 +36,13 @@
             <div class="reservation-text">
                 <h2>Delivering the best of African cuisine across the continent</h2>
                 <p>Experience the uniqueness and rich variety of African food from anywhere in the continent</p>
-                <div class="reservation-btn">
+                <div class="reservation-btn f">
                     <a href="#reservation" class="btn bg-black">Make a reservation</a>
                     <a href="#menu" class="btn bg-white">View our Menu</a>
                 </div>
             </div>
             <div class="reservation-img">
-                <div class="img1">
-                    
-                </div>
+                <div class="img1"></div>
                 <div class="img2"></div>
             </div>
         </section>

@@ -32,3 +32,32 @@
     font-size: 27px;
 }
 
+/* Section: Reservation */
+#reservation {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4rem;
+    margin-bottom: 0;
+}
+
+#reservation .reservation-text {
+    width: 100%;
+    text-justify: auto;
+}
+
+#reservation .reservation-text .reservation-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#reservation .reservation-text .reservation-btn a {
+    margin-bottom: 0.5rem;
+}
+
+#reservation .reservation-img {
+    display: none;
+}
