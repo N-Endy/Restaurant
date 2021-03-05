@@ -151,14 +151,14 @@ body {
     position: relative;
     height: 250px;
     width: 60%;
-    background: url("/css/img/setting1.jpg") no-repeat center center/cover;
+    background: url("../css/img/setting1.jpg") no-repeat center center/cover;
     z-index: 1;
 }
 
 #reservation .reservation-img .img2 {
     height: 250px;
     width: 60%;
-    background: url("/css/img/setting2.jpg") no-repeat center center/cover;
+    background: url("../css/img/setting2.jpg") no-repeat center center/cover;
     position: absolute;
     right: 20;
     top: 30%;
@@ -189,7 +189,7 @@ body {
     position: relative;
     width: 40%;
     height: 350px;
-    background: url("/css/img/setting2.jpg") no-repeat center center/cover;
+    background: url("../css/img/setting2.jpg") no-repeat center center/cover;
 }
 
 /* Menu */
@@ -218,7 +218,7 @@ body {
     position: relative;
     width: 35%;
     height: 300px;
-    background: url("/css/img/food1.jpg") no-repeat center center/cover;
+    background: url("../css/img/food1.jpg") no-repeat center center/cover;
 }
 
 #menu .our-chef {
@@ -239,7 +239,7 @@ body {
     position: relative;
     width: 35%;
     height: 300px;
-    background: url("/css/img/chef.jpg") no-repeat center center/cover;
+    background: url("../css/img/chef.jpg") no-repeat center center/cover;
 }
 
 #menu .our-dish {
@@ -260,7 +260,7 @@ body {
     position: relative;
     width: 35%;
     height: 300px;
-    background: url("/css/img/food1.jpg") no-repeat center center/cover;
+    background: url("../css/img/food2.jpg") no-repeat center center/cover;
 }
 
 /* Section: About Us */
