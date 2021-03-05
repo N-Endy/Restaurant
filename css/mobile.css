@@ -43,7 +43,7 @@
 
 #reservation .reservation-text {
     width: 100%;
-    text-justify: auto;
+    text-align: justify;
 }
 
 #reservation .reservation-text .reservation-btn {
@@ -60,4 +60,20 @@
 
 #reservation .reservation-img {
     display: none;
+}
+
+/* Section: About */
+#about .our-story {
+    flex-direction: column;
+}
+
+#about .our-story .our-story-text {
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+#about .our-story .our-story-img {
+    width: 100%;
+    margin-bottom: -1.5rem;
 }
