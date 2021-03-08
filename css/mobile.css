@@ -119,6 +119,10 @@
     display: none;
 }
 
+#contact {
+    margin-bottom: 2rem;
+}
+
 #contact .contact-content .contact-details {
     justify-content: start;
     align-items: start;
