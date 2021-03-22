@@ -72,6 +72,14 @@ div i {
     margin-right: var(--small-margin);
 }
 
+@keyframes floating {
+    50% { transform: translate(0, 15px);}
+}
+
+.img {
+    animation: floating 2.5s infinite ease-in-out;
+}
+
 /* Body */
 body {
     scroll-behavior: smooth;
