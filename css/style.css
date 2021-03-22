@@ -76,8 +76,16 @@ div i {
     50% { transform: translate(0, 15px);}
 }
 
-.img {
-    animation: floating 2.5s infinite ease-in-out;
+.img-1 {
+    animation: floating 2.4s infinite ease-in-out;
+}
+
+.img-2 {
+    animation: floating 2s infinite ease-in-out;
+}
+
+.img-3 {
+    animation: floating 2.6s infinite ease-in-out;
 }
 
 /* Body */
