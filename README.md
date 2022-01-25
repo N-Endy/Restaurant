@@ -7,3 +7,5 @@ This idea was inspired by Javascript Teacher on twitter. It is easier and I will
 #CHALLENGES EXPERIENCE
 I hit a road block trying to implement the map in the contact section. This help me learn about the google map api
 Upon push to git, the images were not displaying. I fixed this by changing how the link to the images in my file was written.
+
+Live Preview: https://n-endy.github.io/Restaurant/
